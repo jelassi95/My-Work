@@ -266,6 +266,7 @@ p{
     height: 10px;
     background-color: #fff;
 }
+
 /***clients***/
 .clients{
     padding-top: 50px;
@@ -286,4 +287,59 @@ p{
 .clients ul li  img {
     width: 100%;
 }
+}
+
+/***formulaire***/
+.formulaire {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f5f5f5;
+    color: #fff;
+}
+.formulaire p {
+    color: #787878;
+    max-width: 600px;
+    margin: 0 auto 55px;
+}
+.formulaire  input {
+    border: 0;
+}
+.formulaire  input.name{
+    width: 330px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.formulaire  input.email{
+    width: 330px;
+    height: 50px;
+    margin-top: 30px;
+}
+.formulaire  input.title{
+    width: 673px;
+    height: 48px;
+}
+.formulaire  input.comment{
+    width: 667px;
+    height: 169px;
+    margin-top:30px ;
+    margin-bottom: 30px;
+}
+.btn.btn-primary {
+    background-color:#10c9c3;
+    padding: 15px 40px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+@media screen and (max-width:320px){
+    .formulaire input.email {
+        margin-top: 30px;
+ }
+}
+/***footer***/
+.footer{
+    padding-top: 40px;
+    background-color: #000000;
+    color: #bcbcbc;
+    font-size: 15px;
 }

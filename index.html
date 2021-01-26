@@ -305,18 +305,20 @@
      </div>
    </div>
    <div class="section testimonials text-center">
-     <div class="container">
-       <p>“ Outstanding job and exceeded all expectations. It was a pleasure 
-        to work with them on a sizable first project and am looking 
-        forward to start the next one asap.”</p>
-        <span class="writer"> Michael Hopkins</span>
-        <ul class="dots">
+    <div class="container">
+        <div class="testimonial1-slider">  
+        	<p>“ Outstanding job and exceeded all expectations. It was a pleasure 
+          to work with them on a sizable first project and am looking 
+          forward to start the next one asap.”</p>
+          <span class="writer"> Michael Hopkins</span> 
+      </div> 
+       <ul class="dots">
           <li class="dot"></li>
           <li class="dot active"></li>
           <li class="dot"></li>
         </ul>
-     </div>
-   </div>
+  </div>       
+</div>
    <div class="section clients">
      <div class="container">
        <ul>
@@ -328,6 +330,54 @@
        </ul>
      </div>
    </div>
+   <div class="section formulaire text-center">
+     <div class="container col- ">
+       <h2>Need a Project?</h2>
+       <p>Let us know what you're looking for in an agency. We'll take a look and see 
+        if this could be the start of something beautiful.</p>
+        <input class="name" type="text" placeholder="Your Name">
+        <input class="email" type="text" placeholder="Your Email">
+        <input class="title" type="text" placeholder="Your Title">
+        <input class="comment" type="text">
+        <br>
+        <a href="#" class="btn btn-primary">Send Message</a>
+     </div>
+   </div>
+   <footer class="footer">
+     <div class="container">
+       <div class="row">
+         <div class="col-service col-xs-12 col-sm-6 col-md-6 col-lg-3">
+           <p>Piroll Design, Inc.</p>
+           <span>© 2017 Piroll. All rights reserved.
+            Designed by robirurk.</span>
+         </div>
+
+         <div class="col-service col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <p>hello@pirolltheme.com</p>
+          <span>+44 987 065 908 </span>
+        </div>
+        <div class="col-service col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <p>Projects
+            <br>
+            About
+            <br>
+            Services
+            <br>
+            Carreer</p>
+          
+        </div>
+        <div class="col-service col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <p>News
+            <br>
+            Events
+            <br>
+            Contact
+            <br>
+            Legals</p>
+        </div>
+       </div>
+     </div>
+   </footer>
    <script type="text/javascript" src="js/jquery.js"></script>
    <script>
      $(document).ready(function(){
@@ -335,6 +385,16 @@
          $('#navbarSupportedContent').toggle();
        });
      });
+
+     $('.container').slick({
+    infinite: true,
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    fade: true,
+    fadeSpeed: 1000
+});
 
    </script>
 </body>
